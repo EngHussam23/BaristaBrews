@@ -3,7 +3,6 @@
 ## About
 
 This project is rebuild of [Barista Brews](https://github.com/Design-Test-Fusion/Barista-Brews) website that was built with HTML, CSS, and JavaScript.
-Project Name: Barista Brews
 
 ## Credits
 
