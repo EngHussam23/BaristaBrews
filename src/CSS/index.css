@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
+:root {
+  font-family: "Jura", sans-serif, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 18px;
+
+  color-scheme: light dark;
+  color: #33703b;
+  background-image: url("../assets/beans_background50.png");
+  background-color: #ebe8e1;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*Color Palette*/
+  --Primary-Green: #36743e;
+  --Primary-Black: #151515;
+  --Primary-Off-White: #ffffff;
+  --Primary-White: #ebe8e1;
+  --Primary-Teal-Green: #5b6c61;
+
+  --System-Color-Error: #f14668;
+
+  --Theme-Light-Green: #9cc1ac;
+  --Theme-Dark-Green: #1c4122;
+
+  --Shades-Grey: #d2d2d2;
+  --Shades-White-80: #ebe8e1cc;
+  --Shades-White-25: #ebe8e140;
+  --Shades-Green-25: #33703b40;
+  --Shades-Green-50: #33703b80;
+  --Shades-Green-75: #33703bbf;
+  --Shades-Black-75: rgba(21, 21, 21, 0.75);
+
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #33703b;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}

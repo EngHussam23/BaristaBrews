@@ -1,0 +1,165 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+/*Nav Bar Styles*/
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 24px 0 24px;
+  padding: 4px 24px;
+  background-color: var(--Primary-White);
+  box-shadow: 0 0 32px 0 rgba(21, 21, 21, 0.25);
+  border-radius: 24px;
+}
+
+.Logo {
+  height: 72px;
+}
+
+.NavLinks {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.Link {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 900;
+}
+
+.Link:hover {
+  background-color: #33703b;
+  color: #ebe8e1;
+  font-weight: 900;
+}
+
+/*Hero Section Styles*/
+.HeroSection {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(var(--Shades-Black-75), var(--Shades-Black-75)),
+    url("src/assets/f40555e2b1c3b2e3210f85d759896b22.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: var(--Shades-Green-50);
+  margin: 24px 100px;
+  border-radius: 64px;
+  overflow: hidden;
+  gap: 64px;
+}
+
+.HeroText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  color: var(--Primary-White);
+  text-align: center;
+  padding: 0 32px;
+}
+
+.HeroHeader {
+  font-size: 120px;
+  font-weight: 900;
+}
+
+.Slogan {
+  font-size: 40px;
+  font-weight: 400;
+  color: var(--Primary-Green);
+}
+
+/*Drinks List Styles*/
+.DrinksList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding: 24px 24px;
+}
+
+.DrinkCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 300px;
+  height: 400px;
+  border-radius: 24px;
+  background-color: var(--Shades-Green-50);
+  background-image: url("src/assets/espresso.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px);
+  overflow: hidden;
+}
+
+.DrinkCardInfo {
+  display: flex;
+  align-items: center;
+  padding: 32px 20px;
+  gap: 12px;
+  background-color: var(--Shades-White-80);
+  backdrop-filter: blur(2px);
+}
+
+.CoffeeIcon {
+  width: 52px;
+  height: 36px;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.DrinkName {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.RoastType {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.DrinkCard:hover {
+  .DrinkCardInfo {
+    background-color: var(--Primary-Green);
+  }
+  color: var(--Primary-White);
+  background-color: var(--Shades-Green-75);
+  cursor: pointer;
+}
+
+/*Footer Styles*/
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+}
+
+.SocialLinks {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.SocialIcon {
+  width: 24px;
+}
