@@ -32,8 +32,8 @@ Rebuilding the project:
 
 ## Snapshots
 
-<img src = "src\assets\beans33.png" alt ="Home Page" width = "500">
+<img src = "src\assets\HomePage.jpeg" alt ="Home Page" width = "500">
 
-<img src = "src\assets\beans33.png" alt ="Drink Details Page" width = "500">
+<img src = "" alt ="Drink Details Page" width = "500">
 
-<img src = "src\assets\beans33.png" alt ="add a drink page" width = "500">
+<img src = "" alt ="add a drink page" width = "500">
